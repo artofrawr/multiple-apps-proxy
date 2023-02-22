@@ -24,7 +24,7 @@ This will spin up three containers:
 The reverse proxy is configured in `./nginx.conf`.
 
 - Requests to [http://localhost:8000](http://localhost:8000) will be routed to the Nginx server.
-- Requests to [http://localhost:8000/api](http://localhost:8000/api) will be routed to the Apache server.
+- Requests to [http://localhost:8000/api/](http://localhost:8000/api/) will be routed to the Apache server.
 
 ### Conderations around the base path / url rewrite:
 
