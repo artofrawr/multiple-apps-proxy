@@ -17,14 +17,14 @@ A reverse proxy handles incoming client requests, and then forwards those reques
 
 This will spin up three containers:
 
-- the reverse proxy server on [http://localhost:8000](http://localhost:8000)
+- the reverse proxy server on [http://localhost:80](http://localhost:80)
 - an nginx site on [http://localhost:8001](http://localhost:8001) serving the files from the folder `./app_web`
 - an apache site on [http://localhost:8002](http://localhost:8002) serving the files from the folder `./app_api`
 
 The reverse proxy is configured in `./nginx.conf`.
 
-- Requests to [http://localhost:8000](http://localhost:8000) will be routed to the Nginx server.
-- Requests to [http://localhost:8000/api](http://localhost:8000/api) will be routed to the Apache server.
+- Requests to [http://localhost:80](http://localhost:80) will be routed to the Nginx server.
+- Requests to [http://localhost:80/api](http://localhost:80/api) will be routed to the Apache server.
 
 ### Conderations around the base path / url rewrite:
 
