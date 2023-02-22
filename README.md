@@ -15,7 +15,7 @@ A reverse proxy handles incoming client requests, and then forwards those reques
 - check out the repository
 - run `docker-compose up`
 
-This will spin up thee containers:
+This will spin up trhee containers:
 - the reverse proxy server on [http://localhost:80](http://localhost:80)
 - an nginx site on [http://localhost:8001](http://localhost:8001) serving the files from the folder `./app_web`
 - an apache site on [http://localhost:8002](http://localhost:8002) serving the files from the folder `./app_api`
