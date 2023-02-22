@@ -18,8 +18,8 @@ A reverse proxy handles incoming client requests, and then forwards those reques
 This will spin up three containers:
 
 - the reverse proxy server on [http://localhost:8000](http://localhost:8000)
-- an nginx site on [http://localhost:8001](http://localhost:8001) serving the files from the folder `./app_web`
-- an apache site on [http://localhost:8002](http://localhost:8002) serving the files from the folder `./app_api`
+- an nginx server on [http://localhost:8001](http://localhost:8001) serving the files from the folder `./app_web`
+- an apache server on [http://localhost:8002](http://localhost:8002) serving the files from the folder `./app_api`
 
 The reverse proxy is configured in `./nginx.conf`.
 
